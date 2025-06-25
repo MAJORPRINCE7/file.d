@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MAJOR PRINCE | Pull Up Againnn</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #fff;
+      background-image: url('/mnt/data/A_logo_in_graffiti-style_displays_the_acronym_"P.U.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 80%;
+      background-attachment: fixed;
+      position: relative;
+      z-index: 1;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.85); /* Dark overlay */
+      z-index: -1;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #111;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: #39FF14;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .hero img {
+      width: 220px;
+      height: auto;
+      margin: 1rem;
+      max-width: 100%;
+    }
+
+    .section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #FFD700;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 1rem 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+      background: #1F51FF;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .audio-embed {
+      margin-top: 1rem;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MAJOR PRINCE</h1>
+    <p>PULL UP AGAINNN</p>
+  </header>
+
+  <div class="hero">
+    <img src="/mnt/data/ChatGPT Image Jun 25, 2025, 01_26_04 PM.png" alt="PUA Logo">
+    <img src="/mnt/data/ChatGPT Image Jun 25, 2025, 01_26_13 PM.png" alt="Major Prince Logo">
+  </div>
+
+  <div class="section">
+    <h2>🎧 Music</h2>
+    <p>Listen to the latest from Major Prince. Real vibes, deep lyrics, and a pull-up-worthy sound.</p>
+    <div class="buttons">
+      <a href="https://audiomack.com/Majorprince" target="_blank">🎵 Audiomack</a>
+      <a href="https://www.instagram.com/major_prince7" target="_blank">📲 Instagram</a>
+    </div>
+    <div class="audio-embed">
+      <iframe src="https://audiomack.com/embed/song/Majorprince/-1" scrolling="no" width="100%" height="110" scrollbars="no" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🛍 Merch Drops</h2>
+    <p>Shop exclusive merch from the P.U.A. Edition and Royal Drop 01. Limited drops. Big energy.</p>
+    <div class="buttons">
+      <a href="#">View Merch</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📢 Tagline</h2>
+    <p>"It’s MAJOR PRINCE, boy, you know I’ll pull up again... You know I’ll pull up the gang — uh huh... I’m joking man, I pull up the fam, dawg!"</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 MAJOR PRINCE | Built with love. Pull up againnn 🔥</p>
+  </footer>
+</body>
+</html>
